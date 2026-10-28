@@ -1,0 +1,334 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    scrollbar-width: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    background: radial-gradient(circle at center,
+            #1e3a8a 0%,
+            #0f172a 70%);
+    min-height: 100vh;
+    margin: 0;
+    scroll-behavior: hidden;
+}
+
+#main_box {
+    width: 90%;
+    height: 23%;
+    margin-left: 20px;
+    padding-top: 8px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    border-radius: 20px;
+    background-color: #159aff4d;
+}
+
+#rock,
+#paper,
+#seisor {
+    width: 70%;
+    height: 90%;
+    border: solid 1px;
+    border-radius: 40px;
+    transition: transform 0.3s esae;
+    margin-left: 15%;
+    color: white;
+    margin-top: 2px;
+    object-position: center;
+    box-shadow: 0 0 22px rgba(56, 189, 248, 0.7);
+
+    transform: translateY(px) scale(1.04);
+}
+
+#rock:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(14, 31, 53, 0.6);
+
+}
+
+#paper:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(96, 165, 250, 0.6);
+
+}
+
+#seisor:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(96, 165, 250, 0.6);
+
+}
+
+#result {
+    width: 40%;
+    height: auto;
+    border-radius: 20px;
+    border: solid rgb(43, 40, 40) 1px;
+    padding: 2px;
+    margin: 20px;
+    position: relative;
+
+}
+
+
+img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 40px;
+
+}
+
+h1 {
+    font-size: 130%;
+    color: red;
+}
+
+.icon {
+    width: 20%;
+    height: 20%;
+    margin-top: 15px;
+
+}
+
+.you {
+    margin-left: 20%;
+}
+
+#reset {
+    background-color: green;
+    margin-left: 40%;
+    font-size: 15px;
+    position: relative;
+    margin-top: 5%;
+    color: rgb(247, 244, 244);
+
+}
+
+#emogy-stor,
+#score {
+
+    margin-top: 10px;
+    position: relative;
+    color: rgb(227, 248, 45);
+}
+
+#score {
+    margin-left: 27%;
+    margin-top: 5%;
+    position: relative;
+    color: rgb(255, 4, 75);
+
+}
+
+#div_score {
+    margin-top: 10%;
+    margin-left: 20%;
+    padding-left: 10%;
+    color: rgb(248, 6, 6);
+    width: 60%;
+    border: dotted rgb(64, 255, 6) 1px;
+    border-radius: 15px;
+
+}
+
+#card {
+    width: 28%;
+    height: 77px;
+    border-radius: 15px;
+    object-position: center;
+    background-color: rgba(236, 234, 245, 0.2);
+    padding-top: .6%;
+}
+
+#card:hover {
+    border: solid blue 3px;
+}
+
+#game_box {
+    width: 400px;
+    height: 470px;
+    background-color: #1e3a8a;
+    border-radius: 15px;
+
+    margin-left: 30%;
+    padding: 1%;
+
+    margin-top: 10px;
+
+
+}
+
+
+
+@media screen and (max-width:500px) {
+    #game_box {
+        width: 95%;
+        height: 470px;
+        background-color: rgba(9, 9, 163, 0.771);
+        padding-top: 10%;
+        border-radius: 2%;
+        margin-top: 50%;
+        margin-left: 3%;
+        background-color: #1e3a8a;
+        border-radius: 15px;
+        box-shadow:
+            0px 5px 15px rgba(0, 123, 255, 0.4),
+            0px 0px 30px rgba(0, 123, 255, 0.2);
+
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        background: radial-gradient(circle at center,
+                #1e3a8a 0%,
+                #0f172a 70%);
+        min-height: 100vh;
+        margin: 0;
+        scroll-behavior: hidden;
+    }
+
+    #main_box {
+        width: 90%;
+        height: 23%;
+        margin-left: 2%;
+        padding-top: 8px;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        border-radius: 20px;
+        background-color: #159aff4d;
+    }
+
+    #rock,
+    #paper,
+    #seisor {
+        width: 70%;
+        height: 82%;
+        border: solid rgb(83, 62, 178) .5px;
+        border-radius: 40px;
+        transition: transform 0.3s esae;
+        margin-left: 15%;
+        color: white;
+        margin-top: 2px;
+        object-position: center;
+    }
+
+    #rock:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 15px rgba(96, 165, 250, 0.6);
+
+    }
+
+    #paper:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 15px rgba(96, 165, 250, 0.6);
+
+    }
+
+    #seisor:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 15px rgba(96, 165, 250, 0.6);
+
+    }
+
+    #result {
+        width: 40%;
+        height: auto;
+        border-radius: 20px;
+        border: solid rgb(43, 40, 40) 1px;
+        padding: 2px;
+        margin: 20px;
+        position: relative;
+
+    }
+
+
+    img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        border-radius: 40px;
+
+    }
+
+    h1 {
+        font-size: 130%;
+        color: red;
+    }
+
+    .icon {
+        width: 20%;
+        height: 20%;
+        margin-top: 15px;
+
+    }
+
+    .you {
+        margin-left: 5%;
+    }
+
+    #reset {
+        background-color: green;
+        margin-left: 40%;
+        font-size: 15px;
+        position: relative;
+        margin-top: 5%;
+        color: rgb(247, 244, 244);
+
+    }
+
+    #emogy-stor,
+    #score {
+
+        margin-top: 10px;
+        position: relative;
+        color: rgb(227, 248, 45);
+    }
+
+    #score {
+        margin-left: 27%;
+        margin-top: 5%;
+        position: relative;
+        color: rgb(255, 4, 75);
+
+    }
+
+    #div_score {
+        margin-top: 10%;
+        margin-left: 20%;
+        padding-left: 10%;
+        color: rgb(248, 6, 6);
+        width: 60%;
+        border: dotted rgb(64, 255, 6) 1px;
+        border-radius: 15px;
+
+    }
+
+    #card {
+        width: 28%;
+        height: 77px;
+        border-radius: 15px;
+        object-position: center;
+        background-color: rgba(236, 234, 245, 0.2);
+        padding-top: .6%;
+    }
+
+    #card:hover {
+        border: solid blue 3px;
+    }
+
+}
