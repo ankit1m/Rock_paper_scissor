@@ -191,7 +191,7 @@ h1 {
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
         font-size: 18px;
-           background-color:gray
+        background-color:gray;
         margin: 0;
         scroll-behavior: none;
     }
@@ -219,7 +219,7 @@ h1 {
         transition: transform 0.3s esae;
         margin-left: 15%;
         color: white;
-        margin-top: 2px;
+        margin-top: 5px;
         object-position: center;
     }
 
