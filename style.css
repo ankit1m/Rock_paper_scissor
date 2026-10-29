@@ -175,7 +175,7 @@ h1 {
     #game_box {
         width: 95%;
         height: 470px;
-        background-color: blue;
+        background-color: light-blue;
         padding-top: 10%;
         border-radius: 2%;
         margin-top: 10%;
@@ -277,7 +277,7 @@ h1 {
     }
 
     .you {
-        margin-left: 5%;
+        margin-left: 6%;
     }
 
     #reset {
