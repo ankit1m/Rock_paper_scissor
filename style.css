@@ -175,7 +175,7 @@ h1 {
     #game_box {
         width: 95%;
         height: 470px;
-        background-color: rgba(9, 9, 163, 0.771);
+        background-color: blue;
         padding-top: 10%;
         border-radius: 2%;
         margin-top: 10%;
@@ -194,8 +194,8 @@ h1 {
         font-size: 18px;
         background: radial-gradient(circle at center,
                 #1e3a8a 0%,
-                #0f172a 70%);
-        min-height: 100vh;
+                #0f172a 40%);
+         
         margin: 0;
         scroll-behavior: hidden;
     }
