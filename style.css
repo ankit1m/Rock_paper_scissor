@@ -175,7 +175,7 @@ h1 {
     #game_box {
         width: 95%;
         height: 470px;
-        background-color: ice-blue;
+        background-color: #4FC3F7;
         padding-top: 10%;
         border-radius: 2%;
         margin-top: 10%;
@@ -191,7 +191,7 @@ h1 {
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
         font-size: 18px;
-        background-color:mint;
+        background-color:#81D4FA;
         margin: 0;
         scroll-behavior: none;
     }
